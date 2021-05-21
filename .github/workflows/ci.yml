@@ -40,5 +40,8 @@ jobs:
       - name: Install dependencies 👨🏻‍💻
         run: npm ci
 
-      - name: Run server 👀
+      - name: Run Build 👀
         run: npm run build
+
+      - name: Run Start
+        run: npm run start
